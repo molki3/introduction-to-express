@@ -1,0 +1,16 @@
+<%- include('partials/header'); %>
+
+    <h1> <%= title %> </h1>
+
+    <% if(status){ %>
+        <p>Status 200</p>
+    <% }else{ %>
+        <p>Status 404</p>
+    <% } %>
+    
+    <ul>
+        <% for(let i=0; i < users.length; i++) { %>
+            <li><%= users[i].id %> <%= users[i].name %></li>
+        <% } %>
+    </ul>
+<%- include('partials/footer'); %>

@@ -6,6 +6,10 @@ Express is the most popular NodeJs framework for BACKEND.
 ## Installation
 node: 18.17.0
 express: node i express
+From VSC: Thunder Cliente
 
 ## Communication Model
 Client-Server throught HTTP request
+
+## Reference
+https://www.youtube.com/watch?v=JmJ1WUoUIK4

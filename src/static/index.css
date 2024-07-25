@@ -1,0 +1,13 @@
+*{
+    background-color: azure;
+}
+
+body{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+#h1-main {
+    color: cadetblue;
+}
